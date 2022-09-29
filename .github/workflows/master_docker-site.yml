@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'Docker-site'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_768506F436D44A57A49BD3CCAA70E156 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACFA0480488249B7A4007B9E3DFB869E }}
           package: '*.jar'
